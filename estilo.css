@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Fonte-externa;
+    src: url(font/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #5e5d5d;
+    color: #fff;
+    text-align: center;
+    padding: 20px; 
+}
+
+header h1 {
+    font-family: Fonte-externa;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+main {
+    padding: 20px;
+    overflow: hidden;
+}
+
+[class*="col-"] {
+    float: left;
+    padding-right: 10px;
+}
+    
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 24.99%; }
+.col-4 { width: 33.32%; }
+.col-5 { width: 41.65%; }
+.col-6 { width: 49.98%; }
+.col-7 { width: 58.31%; }
+.col-8 { width: 66.64%; }
+.col-9 { width: 74.97%; }
+.col-10 { width: 83.3%; }
+.col-11 { width: 91.63%; }
+.col-12 { width: 99.96%; }
+
+.card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.card button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #5e5d5d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
